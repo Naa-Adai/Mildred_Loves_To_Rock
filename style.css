@@ -1,75 +1,78 @@
 *{
-	margin: 0;
-	padding: 0;
-	font-family: 'New Rocker', cursive;
+    margin: 0;
+    padding: 0;
+    font-family: 'New Rocker', cursive;
 }
+
 .first{
-	min-height: 400vh;
-	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/2.jfif);
-	background-position: center;
-	background-size: 200px;
-	position: relative;
+    min-height: 400vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/2.jfif);
+    background-position: center;
+    background-size: 200px;
+    position: relative;
 	
 }
+
 nav img{
-	width: 300px;
-	padding: 2% 40%;
+    width: 300px;
+    padding: 2% 40%;
 }
+
 .first h2{
-	color: #fff;
-	text-decoration:none;
-	font-size: 50px;
-	padding: 2% 35%;
-	position: relative;
-	text-align: center;
+    color: #fff;
+    text-decoration:none;
+    font-size: 50px;
+    padding: 2% 35%;
+    position: relative;
+    text-align: center;
 }
 
 .nav-links{
-	flex: 1;
-	text-align: center;
+    flex: 1;
+    text-align: center;
 }
 
 .nav-links ul li{
-	list-style: none;
-	display: inline-block;
-	padding: 3% 12%;
-	position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 3% 12%;
+    position: relative;
 }
 
 .nav-links ul li a{
-	color: #fff;
-	text-decoration:none;
-	font-size: 20px;
+    color: #fff;
+    text-decoration:none;
+    font-size: 20px;
 }
 
 .nav-links ul li::after{
-	content: '';
-	width: 0%;
-	height: 2px;
-	background: #f44336;
-	display: block;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
 	margin: auto;
-	transition: 0.5s;
+    transition: 0.5s;
 }
 
 .nav-links ul li:hover::after{
-	width: 100%;
+    width: 100%;
 }
 
 .classics{
-	width: 80%;
-	color: #fff;
-	position: absolute;
-	top: 57%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	background-image: linear-gradient(red,black);
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(red,black);
 }
 
 .fav-table{
-	border-collapse: collapse;
+    border-collapse: collapse;
     margin: 3% 10%;
     font-size: 0.9em;
     font-family: sans-serif;
@@ -101,54 +104,54 @@ nav img{
 }
 
 .fav-table tbody tr td div{
-	list-style: none;
-	display: inline-block;
-	padding: 3% 12%;
-	position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 3% 12%;
+    position: relative;
 }
 
 .fav-table tbody tr td a div{
-	color: #fff;
-	text-decoration:none;
+    color: #fff;
+    text-decoration:none;
 }
 
 .fav-table tbody tr td div::after{
-	content: '';
-	width: 0%;
-	height: 2px;
-	background: black;
-	display: block;
-	margin: auto;
-	transition: 0.5s;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
 
 .fav-table tbody tr td div:hover::after{
-	width: 100%;
+    width: 100%;
 }
 
 .classics ul li{
-	list-style: none;
-	display: inline-block;
-	padding: 3% 12%;
-	position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 3% 12%;
+    position: relative;
 }
 
 .classics ul li a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .classics ul li::after{
-	content: '';
-	width: 0%;
-	height: 2px;
-	background: red;
-	display: block;
-	margin: auto;
-	transition: 0.5s;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
 
 .classics ul li:hover::after{
-	width: 100%;
+    width: 100%;
 }
