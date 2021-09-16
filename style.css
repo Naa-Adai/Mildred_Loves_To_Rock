@@ -1,9 +1,20 @@
+/*
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Mildred Kumah, UMass Lowell Computer Science, mildred_kumah@student.uml.edu
+Copyright (c) 2021 by Mildred All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+*/
+
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'New Rocker', cursive;
 }
 
+
+/*Defining the background image*/
 .first{
     min-height: 400vh;
     width: 100%;
@@ -14,11 +25,13 @@
 	
 }
 
+/*Defining the logo*/
 nav img{
     width: 300px;
     padding: 2% 40%;
 }
 
+/*Defining the heading "MILDRED LOVES TO ROCK"*/
 .first h2{
     color: #fff;
     text-decoration:none;
@@ -28,6 +41,7 @@ nav img{
     text-align: center;
 }
 
+/*Defining the link*/
 .nav-links{
     flex: 1;
     text-align: center;
@@ -46,6 +60,7 @@ nav img{
     font-size: 20px;
 }
 
+/*Defining the hover line under the link*/
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -60,6 +75,7 @@ nav img{
     width: 100%;
 }
 
+/*Defining the body paragraph text*/
 .classics{
     width: 80%;
     color: #fff;
@@ -71,6 +87,7 @@ nav img{
     background-image: linear-gradient(red,black);
 }
 
+/*defining the table*/
 .fav-table{
     border-collapse: collapse;
     margin: 3% 10%;
@@ -103,6 +120,7 @@ nav img{
     border-bottom: 2px solid black;
 }
 
+/*Defining the links in the table*/
 .fav-table tbody tr td div{
     list-style: none;
     display: inline-block;
@@ -129,6 +147,7 @@ nav img{
     width: 100%;
 }
 
+/*Defining the last link on the page*/
 .classics ul li{
     list-style: none;
     display: inline-block;
